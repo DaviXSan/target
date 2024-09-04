@@ -1,13 +1,4 @@
-def pertence_fibonacci(num):
-    """Verifica se um número pertence à sequência de Fibonacci.
-
-    Args:
-        num: O número a ser verificado.
-
-    Returns:
-        bool: True se o número pertence à sequência, False caso contrário.
-    """
-
+def pertence_fibonacci(num):  
     a, b = 0, 1
     while b <= num:
         if b == num:
